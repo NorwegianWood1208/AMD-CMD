@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="js/require.js" data-main="./main"></script> -->
+
+    <script src="./js/sea.js"></script>
+    <script>
+    seajs.config({
+      base: './js', // 后续引用基于此路径
+      alias: {  // 别名，可以用一个名称 替代路径（基于base路径）
+        hello: './js/hello.js'
+      },
+    });
+
+    // 加载入口模块
+    seajs.use("./main.js", function(main) {
+      main.init(); // init
+    });
+    </script>
+    
+</body>
+</html>
