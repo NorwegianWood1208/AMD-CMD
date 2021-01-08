@@ -1,1 +1,1 @@
-console.log(111)
+document.write('hello,world')
