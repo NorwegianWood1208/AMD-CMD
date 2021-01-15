@@ -10,10 +10,19 @@ const commonConfig = merge([
         title: "Webpack demo",
       }),
     ],
+    output: {
+      publicPath: '/',
+    },
   },
 ]);
 
-const productionConfig = merge([]);
+const productionConfig = merge([
+  parts.devServer({
+    // 如果有需要的话，可以在这里定义 host/port
+    host: process.env.HOST,
+    port: 8090,
+  }),
+]);
 
 const developmentConfig = merge([
   parts.devServer({
@@ -24,9 +33,10 @@ const developmentConfig = merge([
 ]);
 
 module.exports = mode => {
-  if (mode === "production") {
-    return merge(commonConfig, productionConfig, { mode });
+  console.log(process.env.NODE_ENV)
+  if (process.env.NODE_ENV === "production") {
+    return merge(commonConfig, productionConfig );
+  } else {
+    return merge(commonConfig, developmentConfig );
   }
-
-  return merge(commonConfig, developmentConfig, { mode });
 };
