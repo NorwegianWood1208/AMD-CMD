@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ae81fe-34fb-4c5d-867b-bbca457dd085" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-demo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-demo/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-demo/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-demo/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-demo/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-demo/webpack.parts.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-demo/webpack.parts.js" afterDir="false" />
-    </list>
+    <list default="true" id="c4ae81fe-34fb-4c5d-867b-bbca457dd085" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -128,7 +122,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1934" height="1038" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
